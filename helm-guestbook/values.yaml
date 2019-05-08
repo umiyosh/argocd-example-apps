@@ -10,8 +10,8 @@ image:
   pullPolicy: IfNotPresent
 
 service:
-  type: ClusterIP
-  port: 80
+  type: LoadBalancer
+  port: 8888
 
 ingress:
   enabled: false
